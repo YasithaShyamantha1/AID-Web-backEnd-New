@@ -26,7 +26,7 @@ app.use(clerkMiddleware());
 
 app.use(
   cors({
-    origin: "*",  // Allow all origins temporarily for debugging
+    origin: "https://horizonehotels-frontend-yasitha.netlify.app",  // Allow all origins temporarily for debugging
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
     allowedHeaders: "Content-Type,Authorization"
